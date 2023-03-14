@@ -15,11 +15,20 @@ h1, h2, h3 {
 	color: var(--lblue)
 }
 
-a, p {
+p {
 	text-align: center;
 	font-size: 15;
 	color: var(--lgrey);
 	text-decoration: none;
+}
+
+.projectitem p {
+	text-align: left;
+}
+
+a {
+	text-align: center;
+	color: var(--lblue);
 }
 
 html {
@@ -32,13 +41,16 @@ header, article, nav {
 	padding: 15px;
 	margin: auto;
 }
+header, article {
+	width: 50%;
+}
 
 .projectitem {
 	background-color: var(--dgrey);
-	padding: 15px;
+	padding: 15px 50px;
 	border-radius: 5px;
 	border: 1px solid var(--lgrey);
-	width: 50%;
+	width: 40%;
 	margin: auto;
 	margin-top: 20px;
 }

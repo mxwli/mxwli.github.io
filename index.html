@@ -8,38 +8,50 @@
 	<body>
 		
 		<header>
-			<h1>Maxwell's Website</h1>
+			<h1>Maxwell Li</h1>
 		</header>
 		<article>
 			<h2>About</h2>
-			<p>I'm a Computer Science student at the University of Waterloo.</p>
-			<p>This website is a collection of some of the things I've worked on.</p>
+			<p>Hello there. I'm a Computer Science student at the University of Waterloo.</p>
+			<p>
+				In both 2021 and 2022, out of the ~3k participants of the annual Canadian Computing Competition, I was one of 20-40 people invited to participate in the nation wide Canadian Computing Olympiad (CCO). 
+			</p>
+			<p>
+				Here are the results for the <a href="https://www.cemc.uwaterloo.ca/contests/past_contests/2021/2021CCOResults.pdf">2021 CCO</a> and <a href="https://www.cemc.uwaterloo.ca/contests/past_contests/2022/2022CCOResults.pdf">2022 CCO</a>
+			</p>
+			<p>This webpage is a portal with links to some of the projects I've put up on Github.</p>
 		</article>
 		<nav>
 			<div class="projectitem">
 				<h3>Fast Fourier Transform Reference (non recursive)</h3>
-				<p>A short fast fourier transform algorithm I wrote along with a demonstration</p>
+				<p>The Cooley-Tukey Algorithm is an algorithm made to compute the Discrete Fourier Transform in O(N log N) time. Since the algorithm is most commonly expressed in terms of a recursive relation, most implementations of it end up being recursive. The problem with this approach is that recursive implementations tend to be slower than iterative implementations.</p>
+				<p>The code linked below implements the algorithm iteratively.</p>
 				<a class="button" href="https://github.com/mxwli/ShortFFTReference">
 				Github Repo
 				</a>
 			</div>
 			<div class="projectitem">
 				<h3>Rocket Jump v1</h3>
-				<p>A rocket jump adventure game I created in the Godot Game Engine. (not completed!)</p>
+				<p>This project was designed to explore the possibilities of centering an adventure game around the rocket jumping mechanic. The game itself isn't completed, but it's playable given what's been completed so far.</p>
 				<a class="button" href="https://github.com/mxwli/rocketjump1">
 				Github Repo
 				</a>
 			</div>
 			<div class="projectitem">
 				<h3>VectorGE</h3>
-				<p>A rewrite of an old game engine concept I wrote in highschool for fun.</p>
+				<p>In highschool I set out to build a game on top of a 2D engine idea I had.
+				Essentially, every real element in the game would be represented by a set of 2D vectors.
+				Map walls were represented by 2 vectors, while entities were assigned a vector and a radius.</p>
+				<p>All the functionalities of this game were built upon these two rules alone.
+				The source code had gotten really messy over time, and I wanted to port it to a web page, so I'm rewriting it in C with raylib. The rewrite is currently a work in progress</p>
 				<a class="button" href="https://github.com/mxwli/vectorge">
 				Github Repo
 				</a>
 			</div>
 			<div class="projectitem">
 				<h3>Procedurally Generated Bullet Hell</h3>
-				<p>A bullet hell game I created along with a friend. Uses the fast fourier transform of an audio file to generate bullet patterns.</p>
+				<p>For the final project of my High School computer science class, I had the idea of procedurally generating a bullet hell game using certain rhythm elements of a song.
+				To obtain these rhythm elements, I self taught the Cooley-Tukey FFT algorithm, which converts a signal into frequency information about the signal. Essentially, I was picking out the individual "notes" of the audio</p>
 				<a class="button" href="https://github.com/dourian/Tinhou">
 				Github Repo
 				</a>
