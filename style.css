@@ -50,7 +50,7 @@ header, article, nav {
 	border: 2px solid var(--dblue);
 	
 	display: block;
-	width: 17%;
+	width: 100px;
 	margin: auto;
 
 	color: var(--dgrey);
