@@ -1,6 +1,3 @@
 # Website in construction
 
-### TODO:
-- change stylesheet to make the site look decent
-- incorporate past projects
-- hi
+I plan on hosting a more "proper" website in the future, rather than simply putting an HTML+CSS file set on github.
